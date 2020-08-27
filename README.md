@@ -28,16 +28,16 @@ const hf = new HelloFreshApi({
 
 **Search**
 
-```
-hf.Recipes.search({q: 'Pizza'}).then(results => {
-    console.log(results); // Returns all recipes matching "Pizza"
+```js
+hf.Recipes.search({ q: "Pizza" }).then((results) => {
+  console.log(results); // Returns all recipes matching "Pizza"
 });
 ```
 
 **Recipes**
 
-```
-hf.Recipes.list().then(recipes => {
-    console.log(recipes); // Returns all recipes
+```js
+hf.Recipes.list().then((recipes) => {
+  console.log(recipes); // Returns all recipes
 });
 ```
