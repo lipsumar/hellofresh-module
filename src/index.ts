@@ -1,7 +1,7 @@
 import Util, { UtilConfig } from "./Util";
 import Recipes from "./Recipes";
 class HelloFreshApi {
-  Recipes: any;
+  Recipes: Recipes;
   constructor(options: UtilConfig) {
     const util = new Util(options);
 
